@@ -4,5 +4,5 @@ print("Original", array)
 new = []
 for i in array:
     if i > 5 :
-        new.add(i+2)
+        new.append(i+2)
 print("New", new)
